@@ -1,4 +1,4 @@
-print('bb')
+print('cc')
 
 if UseUi then
     local MacLib = { 
@@ -347,6 +347,8 @@ if UseUi then
 
         controls.Parent = windowControls
 
+
+        --[[
         local divider1 = Instance.new("Frame")
         divider1.Name = "Divider"
         divider1.AnchorPoint = Vector2.new(0, 1)
@@ -359,6 +361,7 @@ if UseUi then
         divider1.Parent = windowControls
 
         windowControls.Parent = sidebar
+        --]]
 
         local information = Instance.new("Frame")
         information.Name = "Information"
