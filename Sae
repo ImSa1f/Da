@@ -1,4 +1,4 @@
-print('bruh')
+print('yo')
 
 if UseUi then
     local MacLib = { 
@@ -428,6 +428,7 @@ if UseUi then
             ChangeGlobalSettingsButtonState("Default")
         end)
 
+        --[[
         local titleFrame = Instance.new("Frame")
         titleFrame.Name = "TitleFrame"
         titleFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -537,6 +538,8 @@ if UseUi then
         informationGroupUIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
         informationGroupUIListLayout.Parent = informationGroup
 
+
+         --here
         local userId = LocalPlayer.UserId
         local thumbType = Enum.ThumbnailType.AvatarBust
         local thumbSize = Enum.ThumbnailSize.Size48x48
@@ -755,6 +758,7 @@ if UseUi then
                 content.Size = UDim2.new(0, base.AbsoluteSize.X - newSidebarWidth, 1, 0)
             end
         end)
+        --]]
 
         local topbar = Instance.new("Frame")
         topbar.Name = "Topbar"
