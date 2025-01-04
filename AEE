@@ -1,3 +1,4 @@
+PRINT('YOOO')
 
 if UseUi then
     local MacLib = { 
@@ -427,7 +428,7 @@ if UseUi then
             ChangeGlobalSettingsButtonState("Default")
         end)
 
-        --[[
+
         local titleFrame = Instance.new("Frame")
         titleFrame.Name = "TitleFrame"
         titleFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -539,6 +540,7 @@ if UseUi then
 
 
          --here
+         --[[
         local userId = LocalPlayer.UserId
         local thumbType = Enum.ThumbnailType.AvatarBust
         local thumbSize = Enum.ThumbnailSize.Size48x48
@@ -645,12 +647,14 @@ if UseUi then
 
         userInfo.Parent = sidebarGroup
 
+    
         local sidebarGroupUIPadding = Instance.new("UIPadding")
         sidebarGroupUIPadding.Name = "SidebarGroupUIPadding"
         sidebarGroupUIPadding.PaddingLeft = UDim.new(0, 10)
         sidebarGroupUIPadding.PaddingRight = UDim.new(0, 10)
         sidebarGroupUIPadding.PaddingTop = UDim.new(0, 31)
         sidebarGroupUIPadding.Parent = sidebarGroup
+        --]]
 
         local tabSwitchers = Instance.new("Frame")
         tabSwitchers.Name = "TabSwitchers"
