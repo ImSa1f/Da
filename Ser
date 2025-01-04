@@ -1,4 +1,5 @@
-print('aa')
+print('bb')
+
 if UseUi then
     local MacLib = { 
         Options = {}, 
@@ -645,7 +646,7 @@ if UseUi then
         userInfoUIPadding.Parent = userInfo
 
         userInfo.Parent = sidebarGroup
-
+        --]]
     
         local sidebarGroupUIPadding = Instance.new("UIPadding")
         sidebarGroupUIPadding.Name = "SidebarGroupUIPadding"
@@ -653,7 +654,6 @@ if UseUi then
         sidebarGroupUIPadding.PaddingRight = UDim.new(0, 10)
         sidebarGroupUIPadding.PaddingTop = UDim.new(0, 31)
         sidebarGroupUIPadding.Parent = sidebarGroup
-        --]]
 
         local tabSwitchers = Instance.new("Frame")
         tabSwitchers.Name = "TabSwitchers"
